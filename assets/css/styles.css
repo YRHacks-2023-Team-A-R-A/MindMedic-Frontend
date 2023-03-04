@@ -1,0 +1,38 @@
+body {
+  background-color: #141414;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+nav {
+  font-family: 'Ubuntu';
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  margin-top: 5%;
+  margin-bottom: 8%;
+  font-size: 1em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.footer-2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
