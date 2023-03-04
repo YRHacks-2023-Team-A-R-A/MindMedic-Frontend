@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/Section-Title.css">
     <link rel="stylesheet" href="assets/css/simple-footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="js/trial.js"></script>
 </head>
 
 <body style="font-family: 'Ubuntu', sans-serif;margin-right: 0px;border-radius: 0px;background-size: 400% 400%;background-size: 400% 400%;">
@@ -39,8 +40,12 @@
   </div>
 </nav>⠀MindMedic</h1>
     <p class="text-center" style="font-size: 25px;margin-right: 50px;margin-left: 50px;"><br>MindMedic is a therapist/doctor AI chatbot for discord. With a simple command you can start a session with the AI and talk to it about about anything from the cause of a headache to recalling a traumatic event from the past.<br><br></p>
-    <div class="container"><input class="float-end" type="text" placeholder="Type here" style="width: 300px;height: 40px;color: #cdcdcd;background: #1f1f1f;border: 2px solid #cdcdcd;border-top-color: #cdcdcd;border-right-color: #cdcdcd;border-bottom-color: #cdcdcd;border-left-color: #cdcdcd;border-radius: 5px;">
-        <p class="text-start" style="font-size: 30px;">Try asking the MindMedic AI some questions!<br><br></p>
+    <div class="container">
+        <form action="https://mindmedic.hexagon.monster/api/trialconvo" method="POST" target="_self" enctype="application/json">
+            <input class="float-end" type="text" placeholder="Type here" id="ai-trial" style="width: 300px;height: 40px;color: #cdcdcd;background: #1f1f1f;border: 2px solid #cdcdcd;border-top-color: #cdcdcd;border-right-color: #cdcdcd;border-bottom-color: #cdcdcd;border-left-color: #cdcdcd;border-radius: 5px;">
+            <p class="text-start" style="font-size: 30px;" for="ai-trial">Try asking the MindMedic AI some questions!<br><br></p>
+            <input type="submit" value="Submit">
+        </form>
         <div></div>
     </div>
     <div></div>
